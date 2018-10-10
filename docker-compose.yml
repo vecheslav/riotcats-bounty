@@ -1,0 +1,6 @@
+version: "3"
+services:
+  testrpc:
+    image: trufflesuite/ganache-cli:latest
+    ports:
+      - "8544:8545"
